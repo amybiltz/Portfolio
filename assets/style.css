@@ -2,6 +2,10 @@
   --jumbotron-padding-y: 3rem;
 }
 
+.container {
+    background-image: url("https://i.ytimg.com/vi/v1SabYdIlZI/maxresdefault.jpg");
+}
+
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
@@ -37,3 +41,19 @@ footer p {
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.card-deck {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    
+}
+
+
+.card-img-top {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
