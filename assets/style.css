@@ -1,7 +1,21 @@
-.jumbotron {
-  text-align:center;
-  background-image: url("https://images.readwrite.com/wp-content/uploads/2018/03/iStock-623372624-e1481929741702.jpg");
 
+
+body {
+  background: url("https://www.netpremacy.com/wp-content/uploads/2018/09/Background-website-01.jpg");
+  background-size: cover;
+  min-height: -webkit-fill-available;
+}
+
+.jumbotron {
+  background: url("https://www.citygateswf.org/wp-content/uploads/2017/06/wall4.jpg");
+}
+
+.background {
+  padding: 25px;
+  border:25px;
+  margin: 25px;
+
+}
 
 footer {
   padding-top: 3rem;
@@ -15,17 +29,16 @@ footer p {
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
 .card-deck {
-        width: 100%;
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
     
 }
-
-
 .card-img-top {
-    height: 250px;
-    width: 100%;
-    object-fit: cover;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
 }
+
+

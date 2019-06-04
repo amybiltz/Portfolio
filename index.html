@@ -10,16 +10,15 @@
 
     <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/assets/style.css" >
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
   
-
   </head>
 
   <body>
-
+    
     <header>
       <div class="collapse bg-dark" id="navbarHeader">
         <div class="container">
@@ -33,7 +32,7 @@
                 <li><a href="https://www.linkedin.com/in/amy-biltz-a4496617b/" class="text-white">Connect with me on LinkedIn</a></li>
                 <li><a href="https://drive.google.com/file/d/132Bg96LSBUeVDgI5DxrTdOmW2cy8XLm0/view?usp=sharing" class="text-white">Check out my resume</a></li>
                 <li><a href="https://github.com/amybiltz" class="text-white">See my Github</a></li>
-                <li><a href="#" class="text-white">Email me @ Hire.AmyBiltz@yahoo.com</a></li>
+                <li><a class="text-white">Email me @ Hire.AmyBiltz@yahoo.com</a></li>
               </ul>
             </div>
           </div>
@@ -51,54 +50,84 @@
       </div>
     </header>
 
-    <main role="main">
+    <div class="background">
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">About Amy</h1>
+        <p class="lead"><strong>Amy is a motivated web developer with strong set of skills in front end, back end and database adminstration. A team player with exceptional eye for detail.</strong></p>
+        <p class="lead"><strong>Amy started her career in web development in 2018 when she joined the UCSD Extension Bootcamp to learn how to code! She instantly fell in love the world of web development and has not stopped learning since.</strong></p>
+        <p class="lead"><strong>Check out some of Amy's work below!</strong></p>
+      </div>
+    </div>
 
-      <section class="jumbotron">
-        <div class="container">
-          <h1 class="jumbotron-heading">About Amy</h1>
-          <p class="lead text-muted">Amy is currently attending UCSD Full-Stack Web Development Bootcamp. Equiped with knowledge of HTML, CSS, Javascript, Node.js, and MySQL; she is able to develop fully integrable and dynamic applications on both front-end and back-end. </p>
-          <p>
-           Check out some samples of Amy's projects below!
-          </p>
-        </div>
-      </section>
-
-      <div class="card-deck">
-        <div class="card">
-          <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1530259720.0516_ujE9EV_n.jpg" class="card-img-top" alt="gif">
-          <div class="card-body">
-            <h5 class="card-title">Fun With Gifs!</h5>
-            <p class="card-text">Project using Ajax calls. </p>
-            <a href="https://amybiltz.github.io/GifTastic/" class="card-link">View</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://png.pngtree.com/element_our/png/20181207/creative-web-app-icon-background-png_263949.jpg" class="card-img-top" alt="Project">
-          <div class="card-body">
-            <h5 class="card-title">Event Finder</h5>
-            <p class="card-text">Findr: Location based event finding web appication.</p>
-            <a href="https://crushd.github.io/project-one/" class="card-link">View</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://www.connexxion24.com/images/product_images/ebay_images/9397_3.jpg" class="card-img-top" alt="gem">
-          <div class="card-body">
-            <h5 class="card-title">Crystals Collector!</h5>
-            <p class="card-text">Web based game using jquery.</p>
-            <a href="https://amybiltz.github.io/unit-4-game/" class="card-link">View</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://png.pngtree.com/element_our/png/20181207/creative-web-app-icon-background-png_263949.jpg" class="card-img-top" alt="Project">
-          <div class="card-body">
-            <h5 class="card-title">PetsFriends</h5>
-            <p class="card-text">Web application using Node and Express web servers and backed by MySQL database, to help users find their dream pets and allows shelters to post pets for adoption!</p>
-            <a href="https://node-ninjas.herokuapp.com/" class="card-link">View</a>
-          </div>
-        </div>
-        </div>
     
-    </main>
+    <div class="card-deck">
+      <div class="card">
+        <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2013/11/concert-audience.jpg" class="card-img-top" alt="event">
+        <div class="card-body">
+          <h5 class="card-title">Event Finder</h5>
+          <p class="card-text">Findr: Location based event finding web appication focusing on integrating data received from multiple server-side API requests.</p>
+        </div>
+        <div class="card-footer">
+          <a href="https://crushd.github.io/project-one/" class="card-link">View</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://img.grouponcdn.com/deal/w34sQwKLqQtDnT3NedxvTR/167580039-700x420/v1/c700x420.jpg" class="card-img-top" alt="pets">
+        <div class="card-body">
+          <h5 class="card-title">Pets Friends</h5>
+          <p class="card-text">Web application that helps our pet friends find forever homes. Application incorporated Node and Express Web Server backed by MySQL Database.</p>
+        </div>
+        <div class="card-footer">
+          <a href="https://node-ninjas.herokuapp.com/" class="card-link">View</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="http://cdn.home-designing.com/wp-content/uploads/2017/11/minimalist-scandinavian-bedroom-rounded-mirrors-white.jpg" class="card-img-top" alt="home">
+        <div class="card-body">
+          <h5 class="card-title">Home Suite Home</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <a href="http://home-suite-home.herokuapp.com/" class="card-link">View</a>
+        </div>
+      </div>
+    </div>
+<br>
+    <div class="card-deck">
+      <div class="card">
+        <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1530259720.0516_ujE9EV_n.jpg" class="card-img-top" alt="gif">
+        <div class="card-body">
+          <h5 class="card-title">GifTastic!</h5>
+          <p class="card-text">Fun little web page of Gifs!! A dynamic webpage using HTML, JS and JQuery.</p>
+        </div>
+        <div class="card-footer">
+          <a href="https://amybiltz.github.io/GifTastic/" class="card-link">View</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://www.sciencenews.org/sites/default/files/2018/05/main/articles/050718_EC_numbers_feat.jpg" class="card-img-top" alt="psychic">
+        <div class="card-body">
+          <h5 class="card-title">Psychic Game</h5>
+          <p class="card-text">Web game where users guess the letter the computer is thinking! A simple game using HTML, CSS and JS.</p>
+        </div>
+        <div class="card-footer">
+          <a href="https://amybiltz.github.io/Psychic-Game/" class="card-link">View</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="http://www.jenningswire.com/wp-content/uploads/2014/04/bigstock-Colored-gems-41692273.jpg" class="card-img-top" alt="crystal">
+        <div class="card-body">
+          <h5 class="card-title">Crystal Collector Game</h5>
+          <p class="card-text">Collect the right number of crystals and win the game! A fun and interactive game for the web browers using HTML and JQuery library. </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://amybiltz.github.io/unit-4-game/" class="card-link">View</a>
+        </div>
+      </div>
+    </div>
+
+
   </body>
     <footer class="text-muted">
       <div class="container">
