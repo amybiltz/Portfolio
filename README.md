@@ -1,2 +1,2 @@
-# Profile
-Amy's profile page
+# Portfolio
+Amy's portfolio page
